@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurent Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:opsz,wght@6..12,200..1000&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css">
+
+    <style>
+        .onebox {
+           background-image: url("img/background\ image.jpeg");
+           height: 550px;
+       }
+
+               
+       .onebox::before {
+           
+           height: 550px;
+       }
+       .heading h1{
+            text-align: center;
+            font-size: 100px;
+            font-weight: bold ;
+            position: relative;
+            top: 50px;
+            font-family: "nunito";
+            color: #fff;
+            letter-spacing: 1px;
+            margin-top: 170px;
+       }
+
+       .services{
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: -20px;
+       }
+
+       .services h4{
+            font-family: "pacifico";
+            color: #fea116;
+       }
+
+       .service h1{
+            font-family: "nunito",sans-serif;
+       }
+
+       .services hr{
+            height: 1px;
+            background-color: #fea116;
+            width: 33%;
+       }
+
+       @media only screen  and (max-width:760px) and (min-width:0px){
+
+            .onebox {
+                height: 450px;
+            }
+
+            .onebox::before {
+                
+                height: 450px;
+            }
+
+            .heading h1{
+                font-size: 60px;
+            }
+
+            #gmail{
+                padding: 10px;
+            }
+        }
+
+        @media only screen and (max-width:1000px) and (min-width:761px){
+
+            .onebox {
+                height: 500px;
+            }
+
+            .onebox::before {
+                
+                height: 500px;
+            }
+
+            .heading h1{
+                font-size: 70px;
+                margin-top: 150px;
+            }
+
+            .services hr{
+                width: 50%;
+            }
+
+            .services h4{
+                font-size: 27px;
+            }
+
+            .box p{
+                font-size: 15px;
+            }
+
+            #gmail{
+                font-size: 21px;
+            }
+
+
+        }
+
+        @media only screen and (max-width:1200px) and (min-width:1000px){
+            .onebox {
+                height: 600px;
+            }
+
+            .onebox::before {
+                
+                height: 600px;
+            }
+
+            .heading h1{
+                font-size: 100px;
+                margin-top: 200px;
+            }
+
+            .services hr{
+                width: 41%;
+            }
+
+            .services h4{
+                font-size: 30px;
+            }
+
+            .box p{
+                font-size: 15px;
+            }
+
+            #gmail{
+                font-size: 22px;
+            }
+        }
+
+
+    </style>
+  
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navigation fixed-top nav p-0" id="nav">
+        <img src="img/logo .jpeg" class="img-fluid ml-5 p-0" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mr-5 mt-2">
+                <li class="nav-item-active">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="service.html"><span style="color: #fea116;">SERVICE</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">MENU</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle pages" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  PAGES
+                </a>
+                <div class="dropdown-menu dropdown" id="dropdown" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="our team.html">Our Team</a>
+                    <a class="dropdown-item" href="testominals.html">Testominal</a>
+              </div>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+
+            </li>
+            <a href="booking .html"><button type="button" class="btn ">BOOK A TABLE</button></a>
+
+           
+          </ul>
+          
+        </div>
+    </nav>
+
+    <div class="onebox">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 heading" data-aos="zoom-in" data-aos-delay="100"  data-aos-duration="1000">
+                    <h1>Services</h1>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+  
+
+   <div class="secondbox">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 services" data-aos="flip-up" data-aos-delay="100"  data-aos-duration="1000">
+                    <h4>Our Services </h4>
+                    <h1>Explore Our Services</h1>
+                    <hr>
+                    
+                   
+                </div>
+
+                
+                <div class="col-lg-3 col-md-6 col-sm-12 box" data-aos="fade-up" data-aos-delay="100"  data-aos-duration="1000">
+                    <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                    <h5>Master Chefs</h5>
+                    <p>Diam elitr kasd sed at elitr <br> sed ipsum justo dolor sed <br> clita amet diam </p>
+                </div>
+    
+                <div class="col-lg-3 col-md-6 col-sm-12 box" data-aos="fade-up"  data-aos-delay="200"  data-aos-duration="1000">
+                    <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                    <h5>Quality Food</h5>
+                    <p>Diam elitr kasd sed at elitr <br> sed ipsum justo dolor sed <br> clita amet diam </p>
+                    
+                </div>
+    
+                <div class="col-lg-3 col-md-6 col-sm-12 box" data-aos="fade-up"  data-aos-delay="300"  data-aos-duration="1000">
+                    <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                    <h5>Online Order  </h5>
+                    <p>Diam elitr kasd sed at elitr <br> sed ipsum justo dolor sed <br> clita amet diam </p>
+                  
+                </div>
+    
+                <div class="col-lg-3 col-md-6 col-sm-12 box" data-aos="fade-up"  data-aos-delay="400"  data-aos-duration="1000">
+                    <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                    <h5>24/7 Service</h5>
+                    <p>Diam elitr kasd sed at elitr <br> sed ipsum justo dolor sed <br> clita amet diam </p>
+                 
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 box" data-aos="fade-up" data-aos-delay="100"  data-aos-duration="1000">
+                    <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                    <h5>Master Chefs</h5>
+                    <p>Diam elitr kasd sed at elitr <br> sed ipsum justo dolor sed <br> clita amet diam </p>
+                </div>
+    
+                <div class="col-lg-3 col-md-6 col-sm-12 box" data-aos="fade-up"  data-aos-delay="200"  data-aos-duration="1000">
+                    <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                    <h5>Quality Food</h5>
+                    <p>Diam elitr kasd sed at elitr <br> sed ipsum justo dolor sed <br> clita amet diam </p>
+                    
+                </div>
+    
+                <div class="col-lg-3 col-md-6 col-sm-12 box" data-aos="fade-up"  data-aos-delay="300"  data-aos-duration="1000">
+                    <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                    <h5>Online Order  </h5>
+                    <p>Diam elitr kasd sed at elitr <br> sed ipsum justo dolor sed <br> clita amet diam </p>
+                  
+                </div>
+    
+                <div class="col-lg-3 col-md-6 col-sm-12 box" data-aos="fade-up"  data-aos-delay="400"  data-aos-duration="1000">
+                    <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                    <h5>24/7 Service</h5>
+                    <p>Diam elitr kasd sed at elitr <br> sed ipsum justo dolor sed <br> clita amet diam </p>
+                 
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+
+
+    <div class="eightbox">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 footer-one">
+                    <h4>Company</h4>
+                    <hr>
+                    <ul>
+                        <a href="index.html" ><p> <span>></span>Home</p></a>
+                        <a href="about.html" ><p> <span>></span>About</p></a>
+                        <a href="service.html" style="color: #fea116;"><p> <span>></span>Service</p></a>
+                        <a href="menu.html"><p> <span>></span>Menu</p></a>
+                        <a href="contact.html"><p> <span>></span>Contact</p></a>
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 footer-two">
+                    <h4>Contact</h4>
+                    <hr>
+                    <p><span class="fa fa-map-marker-alt mr-3 "></span> 123 Street, Mumbai</p>
+                    <p><span class="fa-solid fa-phone mr-3"></span> +012 345 67890</p>
+                    <p><span class="fa fa-envelope mr-3"></span> info@example.com</p>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 footer-three">
+                    <h4>Opening</h4>
+                    <hr>
+                    <h5>Monday - Saturday </h5>
+                    <p>09AM - 09PM</p>
+
+                    <h5>Sunday</h5>
+                    <p>10AM - 08PM</p>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 footer-four">
+
+                    <h4>Newsletter</h4>
+                    <hr>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+
+                    <form action="">
+                        <input type="text" id="gmail" placeholder="Your email">
+                        <a href="#"> <button type="button" class="btn">SIGNUP</button> </a>
+
+                    </form>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+      
+    <script src="js/js.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="assets/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
+
+    
+</body>
+</html>
+
+    

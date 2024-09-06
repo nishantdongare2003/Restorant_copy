@@ -1,0 +1,1402 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    font-family:"Nunito sans" ;
+    overflow-x: hidden;
+}
+
+#nav{
+    padding: 10px !important;
+}
+
+#nav ul{
+    margin-right: 20px;
+}
+
+.navbar{
+    padding: 0px;
+}
+
+.navbar img{
+    width: 5%;
+    border-radius: 50%;
+    padding: 0px;
+}
+
+.nav-item a {
+    color: #fff !important;
+}
+
+
+.nav-item-active a {
+    color: #fff !important;
+}
+
+#dropdown a{
+    color: black !important;
+}
+
+
+.nav-link{
+    margin-left: 15px;
+}
+
+.nav button{
+    padding: 10px 40px;
+    background-color: #fea116;
+    color:#fff;
+    margin-left: 40px;
+}
+
+.nav button:hover{
+    background-color: #ffc107;
+}
+
+/* onebox start here */
+
+.onebox{
+    width: 100vw;
+    height:100vh;
+    background-image: url("../img/background\ image.jpeg");
+    background-size: cover;
+    background-position: center;
+
+    
+}
+
+.onebox::before {
+    content: "";
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);; /* Semi-transparent white overlay */
+    backdrop-filter: blur(2px); /* Blur effect */
+}
+
+.oneboxright img{
+    margin-top: 100px;
+    width: 90%;
+    border-radius: 50%;
+    animation: rotate 60s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+.oneboxleft{
+    color: #fff;
+    margin-top: 160px;
+}
+
+.oneboxleft h1{
+    font-size: 60px;
+    font-weight: 800;
+    font-family:"Nunito sans" ;
+}
+
+.oneboxleft p{
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+
+.oneboxleft button{
+    margin-top: 19px;
+   padding: 15px 45px;
+   background-color: #fea116;
+    color:#fff;
+    letter-spacing: 1px;
+}
+
+.oneboxleft button:hover{
+    background-color: #ffc107;
+}
+
+/* onebox end here */
+
+/* secondbox started here */
+
+.secondbox{
+    background-color: whitesmoke;
+    padding: 70px 0px;
+}
+
+.box{
+    padding: 30px 0px;
+    float: left;
+    background-color: #fff;
+    border-right: 25px solid whitesmoke;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+   
+   
+}
+
+.box i{
+    color: #fea116 !important;
+    padding-left: 10px;
+}
+
+.box h5{
+    font-weight: 700;
+    padding-left: 10px;
+
+}
+
+.box p{
+    color: #666565;
+    font-size:17px;
+    line-height: 23px;
+    padding-left: 10px;
+    
+}
+
+.box:hover{
+    background-color: #fea116;
+}
+
+.box:hover i,
+.box:hover h5,
+.box:hover p {
+    color: white !important; 
+}
+
+/* secondbox ended here */
+
+/* Thirdbox started here */
+
+.thirdbox{
+    background-color: whitesmoke;
+    padding: 30px 0px;
+}
+
+.thirdleft img{
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+.thirdleft{
+    float: inline-start;
+    padding: 0px;
+}
+
+.thirdright{
+    float: inline-start;
+}
+
+.lefttop{
+    float: inline-start;
+    margin-bottom: 20px;
+}
+
+.leftbottom{
+    float: inline-start;
+    margin-bottom: 20px;
+}
+
+.thirdright h3{
+    font-family: "pacifico";
+    color: #fea116;
+    font-size: 25px;
+}
+
+
+.thirdright h1{
+    font-family: "Nunito",sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.thirdright i{
+    color: #fea116 !important;
+    font-weight: 900;
+}
+
+.thirdright p{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.thirdright button{
+    padding: 15px 40px;
+    background-color: #fea116;
+    color: #fff;
+}
+
+.thirdright button:hover{
+    background-color: #ffc107;
+}
+/* thirdbox ended here */
+
+/* fourthbox start here */
+
+.fourthbox{
+    background-color: whitesmoke;
+    padding: 70px 0px;
+}
+
+.food{
+    text-align: center;
+}
+
+.food h4{
+    font-family: "pacifico";
+    color: #fea116;
+    margin-bottom: 15px;
+}
+
+.food hr{
+    width: 140px;
+    height: 1px;
+    background-color: #fea116;
+}
+.food h1{
+    font-family: "Nunito",sans-serif;
+    font-weight:700 ;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.logo i{
+    color: #fea116 !important;
+    float: left;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.logo i{
+    margin-right: 10px;
+}
+
+.logo p{
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+    margin-left: 2px;
+
+}
+
+.logo a:hover{
+    text-decoration: none !important;
+    border-bottom: 2px solid #fea116;
+}
+
+
+.logo a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 33px;
+}
+
+.logo a span {
+    font-weight: bold;
+}
+
+.breakveg img{
+    width: 20%;
+    border-radius: 15px;
+    float: left;
+    margin-right: 20px;
+}
+
+.veg span{
+    float: inline-end;
+}
+.veg h5{
+    margin-bottom:0px ;
+    font-weight: 700;
+    position: relative;
+    top: 3px;
+    font-size:22px ;
+}
+
+.veg span{
+    color: #fea116;
+    font-weight: 700;
+}
+
+.veg hr{
+    width: 76%;
+    float: inline-start;
+    height  : 2px;
+}
+
+.veg p{
+    font-size: 15px;
+    margin-top: 2px;
+    font-style: italic;
+    position: relative;
+    top: -3px;
+}
+
+
+
+.breaknveg img{
+    width: 20%;
+    border-radius: 15px;
+    float: left;
+    margin-right: 20px;
+}
+
+.nveg span{
+    float: inline-end;
+}
+.nveg h5{
+    margin-bottom:0px ;
+    font-weight: 700;
+    position: relative;
+    top: 3px;
+    font-size:22px ;
+}
+
+.nveg span{
+    color: #fea116;
+    font-weight: 700;
+}
+
+.nveg hr{
+    width: 76%;
+    float: inline-start;
+    height  : 2px;
+}
+
+.nveg p{
+    font-size: 15px;
+    margin-top: 2px;
+    font-style: italic;
+    position: relative;
+    top: -3px;
+}
+
+/* fourthbox end here */
+
+/* fifthbox start here */
+
+.fifthbox{
+    background-color: whitesmoke;
+    padding: 40px 0px 0px 0px;
+}
+
+.fifthright{
+    padding: 30px 30px 0px 30px;
+    background-color:#0F172B;
+    color: #fff;
+   
+}
+
+
+.fifthright h3{
+    font-family: "pacifico";
+    color: #fea116;
+}
+
+
+.fifthright h1{
+    font-family: "nunito" sans-serif;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
+
+
+#email{
+    margin-bottom: 10px;
+}
+
+
+
+#table{
+    margin-bottom: 10px;
+}
+
+#people{
+    margin-bottom: 10px !important;
+}
+
+.fifthright button{
+    background-color: #fea116;
+    color: #fff;
+}
+
+.fifthright a:hover{
+    text-decoration: none;
+}
+
+
+.fifthright button:hover{
+    background-color: #ffc107;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* fifthbox ended here */
+
+/* sixbox started here */
+
+.sixbox{
+    padding: 50px 0px 30px 0px;
+    background-color: beige;
+}
+
+.masters{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.masters h4{
+    font-family: "pacifico";
+    color: #fea116;
+}
+
+.masters h1{
+    font-family: "nunito",sans-serif;
+    font-weight: 700;
+}
+
+.masters hr{
+    width:30%;
+    height: 2px;
+    background-color: #fea116;
+}
+
+.chef:hover{
+    background-color: #ffc107;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+
+.chef{
+    height: 330px;
+    background-color: #fff;
+    border-right: 20px solid beige;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.chef img{
+    border-radius: 50%;
+    width: 95%;
+}
+
+.chef h4{
+    margin-top: 20px;
+    font-size: 21px;
+    font-family: "nunito";
+    font-weight: 600;
+}
+
+/* sixbox ended here */
+
+/* sevenbox start here */
+
+.sevenbox{
+    padding: 80px 0px 80px 0px;
+    background-color: whitesmoke;
+}
+.gallery {
+    background: #fff;
+    width: 100%;
+    max-width:100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.gallery-cell {
+    width: 350px; 
+    height: 250px; 
+    margin-right: 10px; 
+    border-radius: 10px;
+    font-size: 24px;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    color: black; 
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    border: 1px solid black ;
+}
+
+
+.gallery-cell img{
+    width: 30%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto !important;
+    margin-bottom: 10px !important;
+}
+
+ .gallery-cell p{
+    font-size: 15px;
+ }
+
+ .gallery-cell.is-selected {
+    background-color: #fea116; 
+    color: #fff;
+    border: none;
+}
+
+/* sevenbox ended here */
+
+
+
+
+/* eightbox started here */
+
+.eightbox{
+    padding: 20px 0px 20px 0px;
+    background-color: #0F172B;
+    color: #fff;
+}
+
+.footer-one h4{
+    font-family: "pacifico";
+    color: #fea116;
+}
+
+.footer-one a{
+    color: #fff;
+}
+
+
+.footer-one ul{
+    padding: 0px;
+}
+
+.footer-one span{
+    font-weight:800 ;
+    margin-right: 5px;
+}
+
+.footer-one:hover a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-two h4{
+    font-family:"pacifico" ;
+    color: #fea116;
+}
+
+.footer-two a{
+    padding: 7px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+
+.footer-two a:hover{
+    background-color: #fff;
+    color: #fea116;
+}
+
+
+.footer-three h4{
+    font-family:"pacifico" ;
+    color: #fea116;
+}
+
+
+.footer-four h4{
+    font-family:"pacifico" ;
+    color: #fea116;
+}
+
+#gmail{
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.footer-four button{
+    background-color: #fea116;
+    color: #fff;
+}
+
+
+.footer-four button:hover{
+    background-color: #ffc107;
+}
+
+
+
+@media only screen  and (max-width:760px) and (min-width:100px){
+
+    html,body{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .nav button{
+        margin-left: 13px;
+        margin-top: 10px;
+    }
+
+    .onebox{
+        height: 800px;
+    }
+
+    .oneboxleft{
+        text-align: center;
+    }
+
+    .oneboxright img{
+        width: 0px;
+    }
+
+    .onebox::before {
+            
+        height: 800px;
+    }
+
+    .oneboxleft h1{
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .oneboxleft p{
+        font-size: 17px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .oneboxleft button{
+        font-size: 17px;
+    }
+
+    .secondbox{
+        text-align: center;
+        padding-bottom: 0px;
+     
+    }
+
+    .box{
+        margin-bottom: 40px;        
+
+    }
+
+    .box h5{
+        font-size: 23px;
+    }
+
+    .box p{
+        font-size: 17px;
+    }
+
+    .thirdleft, 
+    .thirdright {
+        flex: 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .thirdleft, .thirdright{
+        margin-bottom: 15px;
+       
+    }
+ 
+    .thirdleft img,
+    .thirdright img {
+        width: 100%;
+        margin-bottom: 20px;
+      
+    }
+
+    .thirdright {
+        text-align: center;
+    }
+
+    .thirdright h1 {
+        font-size: 30px; 
+    }
+
+    .thirdright h3{
+        font-size:30px ;
+    }
+
+    .thirdright p {
+        font-size: 16px; 
+    }
+
+    .thirdright button {
+        margin-top: 20px; 
+        font-size: 17px;
+    }
+
+    .fourthbox{
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .logo a {
+        margin-left: 10px;
+    }
+
+    .logo p{
+        font-size: 13px !important;
+    }
+
+    .food h4{
+        font-size:32px;
+    }
+
+    .food h1{
+        font-size: 40px;
+    }
+
+    .logo p{
+        font-size: 20px;
+    }
+    .veg{
+        margin-bottom: 30px;
+    }
+
+    .veg hr{
+        width: 70%;
+    }
+
+    .veg h5{
+        font-weight: 600;
+    }
+
+    .veg p{
+        font-size: 15px;
+    }
+
+    .nveg hr{
+        width: 70%;
+    }
+
+    .nveg h5{
+        font-weight: 600;
+    }
+
+    .nveg p{
+        font-size: 15px;
+    }
+
+    .fifthleft{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .fifthleft img{
+        width: 85%;
+    }
+
+    .fifthright button{
+        margin-bottom: 10px;
+    }
+
+    .masters h4{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .masters h1{
+        font-size: 40px;
+    }
+
+    .masters hr{
+        width: 60%;
+        height: 1px;
+    }
+
+    .chef {
+        margin-bottom: 50px;
+        height:auto;
+        padding: 20px;
+       
+    }
+
+    .chef img{
+        width: 60%;
+    }
+
+    .chef h4{
+        font-size: 30px;
+    }
+
+    .chef p{
+        font-size: 22px;
+    }
+
+    .sevenbox{
+        padding: 30px 20px;
+    }
+
+    .gallery-cell{
+        width: 100%;
+        border: none;
+        height: auto;
+    }
+
+    .gallery-cell h5{
+        font-size: 22px;
+    }
+
+    .gallery-cell p{
+        font-size: 17px;
+    }
+
+    .eightbox{
+        padding: 40px 0px;
+    }
+   
+
+    .footer-one h4{
+        font-size: 27px;
+    }
+
+    .footer-one a{
+        font-size: 21px;
+    }
+
+    .footer-two h4{
+        margin-top: 30px;
+        font-size: 27px;
+    }
+
+    .footer-two p{
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+
+    .footer-two a{
+        font-size: 22px;
+        
+    }
+
+    .footer-three h4{
+        margin-top: 40px;
+        font-size: 27px;
+    }
+    .footer-three h5{
+        font-size: 22px;
+    }
+
+    .footer-three p{
+        font-size: 20px;
+    }
+
+    .footer-four h4{
+        margin-top: 30px;
+        font-size: 27px;
+    }
+
+    .footer-four p{
+        font-size: 20px;
+    }
+
+    #gmail{
+        padding: 12px;
+        margin-bottom: 10px;
+    }
+
+    .footer-four button{
+        margin-left: 10px;
+        padding: 13px 30px;
+    }
+
+    
+
+
+}
+
+
+
+@media only screen and (max-width:1000px) and (min-width:761px){
+
+    html,body{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .nav button{
+        margin-left: 13px;
+        margin-top: 10px;
+    }
+
+   
+    .onebox{
+        height: 570px;
+    }
+
+    .onebox::before {
+            
+        height: 570px;
+    }
+
+    .oneboxleft h1{
+        font-size: 45px;
+    }
+
+    .oneboxleft p{
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    .oneboxright img{
+        margin-top: 130px;
+        width: 90%;
+    }
+
+    .oneboxright button{
+        font-size: 19px;
+    }
+
+    .secondbox{
+        padding-bottom: 20px;
+    }
+
+    .box h5{
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    .box p{
+        font-size:20px;
+        text-align: justify;
+    }
+
+    .thirdlefttop img{
+        width: 0%;
+    }
+
+    .thirdrightbottom img{
+        width: 0%;
+    }
+
+    .thirdright{
+        margin-top: 30px;
+    }
+
+    .thirdright h3{
+        font-size: 28px;
+    }
+
+    .thirdright h1{
+        font-size: 45px;
+    }
+
+    .thirdright p{
+        font-size: 20px;
+    }
+
+    .thirdright button{
+        font-size: 20px;
+    }
+
+    .fourthbox{
+        padding-top:20px ;
+    }
+
+    .food h4{
+        font-size: 30px;
+    }
+
+    .food h1{
+        font-size: 45px;
+    }
+
+    .logo p{
+        font-size: 20px;
+    }
+
+    .veg{
+        margin-bottom: 40px;
+    }
+
+    .veg img{
+        width: 15%;
+    }
+
+    .veg hr{
+        width: 81%;
+    }
+
+    .veg h5{
+        font-size: 30px;
+        font-weight:600 ;
+    }
+
+    .veg p{
+        font-size: 20px;
+    }
+    
+    .nveg img{
+        width: 15%;
+    }
+
+    .nveg hr{
+        width: 81%;
+    }
+
+    .nveg h5{
+        font-size: 30px;
+        font-weight:600 ;
+    }
+
+    .nveg p{
+        font-size: 20px;
+    }
+
+    .fifthleft{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fifthright{
+        height: auto;
+    }
+
+    .fifthleft img{
+        width: 90%;
+    }
+
+    
+    .fifthright  h1{
+        font-size: 35px;
+    }
+
+    .masters h4{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+ 
+    .masters h1{
+        font-size: 45px;
+    }
+
+    .masters hr{
+        width: 54%;
+    }
+
+    .chef{
+        height: auto;
+    }
+
+    .chef img{
+        width: 90%;
+    }
+
+    .chef h4{
+        font-size: 30px;
+    }
+
+    .chef p{
+        font-size: 21px;
+    }
+
+    .gallery-cell{
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery-cell h5{
+        font-size: 30px;
+    }
+
+    .gallery-cell p{
+        font-size: 20px;
+    }
+
+    .footer-one h4{
+        font-size: 29px;
+        margin-top: 30px;
+    }
+
+    .footer-one a{
+        font-size: 21px;
+
+    }
+    .footer-two h4{
+        font-size: 29px;
+        margin-top: 30px;
+    }
+
+    .footer-two h5{
+        font-size: 22px;
+    }
+    .footer-two p{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-two i{
+        font-size: 20px !important;
+    }
+
+   
+
+    .footer-three h4{
+        font-size: 29px;
+        margin-top: 30px;
+    }
+
+    .footer-three p{
+        font-size: 20px;
+    }
+
+    .footer-four h4{
+        font-size: 29px;
+        margin-top: 30px;
+    }
+
+    .footer-four p{
+        font-size: 20px;
+    }
+
+    #gmail{
+        margin-bottom: 10px;
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .footer-four button{
+        padding: 14px 30px;
+    }
+
+
+
+}
+
+@media only screen and (max-width:1200px) and (min-width:1000px){
+    html,body{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .onebox{
+        height: 600px;
+    }
+
+    .onebox::before {
+            
+        height: 600px;
+    }
+
+    .oneboxleft h1{
+        font-size: 50px;
+    }
+
+    .oneboxleft p{
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .oneboxright img{
+        margin-top: 110px;
+        width: 90%;
+    }
+
+    .oneboxright button{
+        font-size: 20px;
+    }
+
+  
+
+    .box h5{
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    .box p{
+        font-size:15px;
+    }
+
+    .thirdright h3{
+        font-size: 28px;
+    }
+
+    .thirdbox h1{
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .thirdright p{
+        font-size: 18px;
+    }
+
+    .food h4{
+        font-size: 30px;
+    }
+
+    .food h1{
+        font-size: 45px;
+    }
+
+    .logo p{
+        font-size: 22px;
+    }
+
+    .veg img{
+        width: 25%;
+    }
+
+    .veg hr{
+        width: 70%;
+    }
+
+    .veg p{
+        font-size: 13px;
+    }
+
+    .veg h5{
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .nveg img{
+        width: 25%;
+    }
+
+    .nveg hr{
+        width: 70%;
+    }
+
+    .nveg p{
+        font-size: 13px;
+    }
+
+    .nveg h5{
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .fifthleft img{
+        height:632px;
+    }
+
+    .masters h4{
+        font-size: 30px;
+    }
+
+    .masters h1{
+        font-size: 45px;
+    }
+
+    .masters hr{
+        width: 41%;
+    }
+
+    .chefs{
+        height: auto;
+    }
+
+    .chef img{
+        width: 100%;
+    }
+
+    .chef h4{
+        font-size: 27px;
+    }
+
+    .chef p{
+        font-size: 21px;
+    }
+
+    .gallery-cell{
+        width: 100%;
+        height: 430px;
+    }
+
+    .gallery-cell h5{
+        font-size: 32px;
+    }
+
+    .gallery-cell p{
+        font-size: 20px;
+    }
+
+    .footer-one h4{
+        font-size:30px ;
+    }
+
+    .footer-one p{
+        font-size: 19px;
+    }
+
+    .footer-two h4{
+        font-size:30px ;
+    }
+
+    .footer-two p{
+        font-size: 19px;
+    }
+
+    .footer-two i{
+        font-size: 20px;
+    }
+
+    .footer-three h4{
+        font-size:30px ;
+    }
+
+    .footer-three h5{
+        font-size:20 ;
+    }
+
+    .footer-three p{
+        font-size: 20px;
+    }
+
+    .footer-four h4{
+        font-size:30px ;
+    }
+
+    .footer-four p{
+        font-size: 20px;
+    }
+
+    #gmail{
+        padding: 8px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .footer-four button{
+        padding: 12px 30px;
+        font-size: 20px;
+    }
+
+
+
+
+    
+}
